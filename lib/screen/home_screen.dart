@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
         leadingWidth: 94,
         elevation: 1,
         shadowColor: const Color(0xFFD7D7D7),
-        scrolledUnderElevation: 1,
+        scrolledUnderElevation: 2,
         surfaceTintColor: Colors.transparent,
       ),
       body: SingleChildScrollView(

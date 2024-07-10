@@ -421,7 +421,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 10),
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Container(
                           height: 70,
@@ -435,6 +434,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             fit: BoxFit.cover,
                           ),
                         ),
+                        const SizedBox(width: 10,),
                         Container(
                           height: 70,
                           width: 70,
@@ -447,6 +447,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             fit: BoxFit.cover,
                           ),
                         ),
+                        const SizedBox(width: 10,),
                         Container(
                           height: 70,
                           width: 70,

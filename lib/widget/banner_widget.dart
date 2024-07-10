@@ -27,6 +27,7 @@ class _BannerWidgetState extends State<BannerWidget> {
                   (e) => Image.network(
                     e,
                     fit: BoxFit.cover,
+                    width: double.maxFinite,
                   ),
                 )
                 .toList(),
@@ -42,7 +43,6 @@ class _BannerWidgetState extends State<BannerWidget> {
                 autoPlayAnimationDuration: const Duration(milliseconds: 800),
                 autoPlayCurve: Curves.easeInOut,
                 enlargeCenterPage: false,
-                scrollDirection: Axis.horizontal,
                 onPageChanged: (index, reason) {
                   setState(() {
                     currentCarouselIndex = index;
